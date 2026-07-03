@@ -1,2 +1,48 @@
-# rozix-ringtone
-Rozix Ringtone its An Android App that Can Convert and Trim Music Files into Modern and Popular Formats
+```markdown
+# Rozix Ringtone
+
+**Rozix Ringtone** هو تطبيق مجاني لنظام **Android** تم تطويره بواسطة **Rozix Systems**، ويتيح لك قص الملفات الصوتية وتحويلها إلى أشهر الصيغ الحديثة بسهولة وسرعة، مع معالجة كاملة **دون الحاجة إلى اتصال بالإنترنت**.
+
+## المميزات
+
+- 🎵 قص الملفات الصوتية بدقة.
+- 🔄 تحويل الملفات بين أشهر الصيغ الصوتية.
+- 📱 يعمل بالكامل دون اتصال بالإنترنت.
+- ⚡ معالجة سريعة تعتمد على محرك **FFmpeg**.
+- 🎧 يدعم أشهر الصيغ مثل:
+  - MP3
+  - AAC
+  - M4A
+  - WAV
+  - FLAC
+  - OGG
+  - OPUS
+- 📂 اختيار الملفات بسهولة من ذاكرة الهاتف.
+- 🎨 واجهة بسيطة وسهلة الاستخدام.
+
+## الاستخدامات
+
+- إنشاء نغمات رنين مخصصة.
+- تحويل الملفات الصوتية إلى صيغ مختلفة.
+- قص المقاطع الصوتية الطويلة.
+- تجهيز ملفات الصوت للمشاركة أو الحفظ.
+
+## التقنية المستخدمة
+
+- Kotlin
+- Android SDK
+- FFmpeg
+
+## المطور
+
+**Rozix Systems**
+
+### روابط Rozix
+
+- GitHub: https://github.com/sherifmousa707-droid
+- Facebook: https://www.facebook.com/RozixSystems
+
+---
+
+© 2026 Rozix Systems. جميع الحقوق محفوظة.
+```
