@@ -1,7 +1,7 @@
 ```markdown
 # Rozix Ringtone
 
-**Rozix Ringtone** هو تطبيق مجاني لنظام **Android** تم تطويره بواسطة **Rozix Systems**، ويتيح لك قص الملفات الصوتية وتحويلها إلى أشهر الصيغ الحديثة والشهيرة.
+**Rozix Ringtone** هو تطبيق مجاني لنظام **Android** تم تطويره بواسطة **Rozix Systems**، ويتيح لك قص الملفات الصوتية وتحويلها إلى أشهر الصيغ الحديثة.
 
 ## المميزات
 
@@ -29,11 +29,11 @@
 
 ## لقطات الشاشة
 
-![Screenshot 1](Screenshot_2026-07-03-17-51-14-75_d67cf9e77b2860a5d6c2ccb4f99e2d44.jpg)
+![Screenshot 1](https://github.com/sherifmousa707-droid/rozix-ringtone/raw/main/Screenshot_2026-07-03-17-51-14-75_d67cf9e77b2860a5d6c2ccb4f99e2d44.jpg)
 
-![Screenshot 2](Screenshot_2026-07-03-17-51-39-87_d67cf9e77b2860a5d6c2ccb4f99e2d44.jpg)
+![Screenshot 2](https://github.com/sherifmousa707-droid/rozix-ringtone/raw/main/Screenshot_2026-07-03-17-51-39-87_d67cf9e77b2860a5d6c2ccb4f99e2d44.jpg)
 
-![Screenshot 3](Screenshot_2026-07-03-17-51-53-68_d67cf9e77b2860a5d6c2ccb4f99e2d44.jpg)
+![Screenshot 3](https://github.com/sherifmousa707-droid/rozix-ringtone/raw/main/Screenshot_2026-07-03-17-51-53-68_d67cf9e77b2860a5d6c2ccb4f99e2d44.jpg)
 
 ## التقنية المستخدمة
 
