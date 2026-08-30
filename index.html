@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rozix Music Cut - a simple music and audio cutting app.">
+  <meta property="og:title" content="Rozix Music Cut">
+  <meta property="og:description" content="Cut your music and audio files easily with Rozix Music Cut.">
+  <meta property="og:image" content="rozix-music-cut.png">
+  <meta name="theme-color" content="#090615">
+  <title>Rozix Music Cut</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #fff;
+      background:
+        radial-gradient(circle at 20% 10%, rgba(255, 20, 150, .22), transparent 34%),
+        radial-gradient(circle at 85% 25%, rgba(0, 220, 255, .16), transparent 30%),
+        linear-gradient(145deg, #07040f 0%, #110719 48%, #05030a 100%);
+      min-height: 100vh;
+    }
+    .wrap { max-width: 1080px; margin: auto; padding: 28px 22px 60px; }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 10px 0 30px;
+    }
+    .brand { font-weight: 800; font-size: 20px; letter-spacing: .4px; }
+    .brand span { color: #ff2b9a; }
+    .hero {
+      min-height: 72vh;
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 45px;
+      align-items: center;
+    }
+    .badge {
+      display: inline-block;
+      padding: 8px 13px;
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: 999px;
+      background: rgba(255,255,255,.06);
+      color: #d9d4e3;
+      font-size: 13px;
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-size: clamp(42px, 7vw, 76px);
+      line-height: .98;
+      margin: 0 0 18px;
+      letter-spacing: -2.5px;
+    }
+    h1 .pink { color: #ff2997; }
+    h1 .cyan { color: #19e7ff; }
+    .lead {
+      font-size: 19px; line-height: 1.65; color: #d1cbd9;
+      max-width: 600px; margin-bottom: 28px;
+    }
+    .button {
+      display: inline-flex; align-items: center; justify-content: center;
+      gap: 10px; padding: 15px 22px; border-radius: 13px;
+      text-decoration: none; color: #fff; font-weight: 800;
+      background: linear-gradient(135deg, #ff168d, #c80b70);
+      box-shadow: 0 12px 35px rgba(255, 20, 140, .28);
+      transition: transform .2s, box-shadow .2s;
+    }
+    .button:hover { transform: translateY(-2px); box-shadow: 0 16px 42px rgba(255, 20, 140, .38); }
+    .small { margin-top: 14px; color: #9d96a8; font-size: 12px; }
+    .app-card {
+      display: flex; justify-content: center; align-items: center;
+    }
+    .app-card img {
+      width: min(430px, 82vw); aspect-ratio: 1;
+      object-fit: cover; border-radius: 29%;
+      box-shadow:
+        0 0 0 1px rgba(255,255,255,.1),
+        0 25px 80px rgba(0,0,0,.65),
+        0 0 75px rgba(255, 15, 145, .20);
+    }
+    .features {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+      margin-top: 25px;
+    }
+    .feature {
+      padding: 23px; border-radius: 18px;
+      background: rgba(255,255,255,.055);
+      border: 1px solid rgba(255,255,255,.09);
+    }
+    .feature h3 { margin: 0 0 9px; font-size: 18px; }
+    .feature p { margin: 0; color: #aaa3b3; line-height: 1.55; font-size: 14px; }
+    .cta {
+      text-align: center; margin-top: 60px; padding: 48px 20px;
+      border-radius: 25px;
+      background: linear-gradient(135deg, rgba(255,20,145,.12), rgba(0,220,255,.07));
+      border: 1px solid rgba(255,255,255,.09);
+    }
+    .cta h2 { font-size: 32px; margin: 0 0 10px; }
+    .cta p { color: #aaa3b3; margin: 0 0 22px; }
+    footer { text-align: center; color: #706978; font-size: 12px; padding-top: 35px; }
+    @media (max-width: 760px) {
+      .hero { grid-template-columns: 1fr; text-align: center; padding-top: 25px; }
+      .lead { margin-left: auto; margin-right: auto; }
+      .features { grid-template-columns: 1fr; }
+      header { justify-content: center; }
+      .app-card { order: -1; }
+      .app-card img { width: min(310px, 72vw); }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand"><span>Rozix</span> Music Cut</div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <div class="badge">🎵 Music & Audio Tool</div>
+          <h1><span class="pink">Rozix</span><br><span class="cyan">Music Cut</span></h1>
+          <p class="lead">
+            Cut your music and audio files quickly and easily.
+            Choose the part you need and create your clip in a simple, clean way.
+          </p>
+          <a class="button" href="https://play.google.com/store/apps/details?id=com.sherif.rozixmusiccut" target="_blank" rel="noopener">
+            ▶ &nbsp; Get it on Google Play
+          </a>
+          <div class="small">Available for Android</div>
+        </div>
+
+        <div class="app-card">
+          <img src="rozix-music-cut.png" alt="Rozix Music Cut app">
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="feature">
+          <h3>✂️ Easy Cutting</h3>
+          <p>Trim the audio section you need with a straightforward workflow.</p>
+        </div>
+        <div class="feature">
+          <h3>🎧 Audio Focused</h3>
+          <p>Designed specifically for working with music and audio clips.</p>
+        </div>
+        <div class="feature">
+          <h3>📱 Simple Experience</h3>
+          <p>A clean interface that keeps the important controls within reach.</p>
+        </div>
+      </section>
+
+      <section class="cta">
+        <h2>Ready to cut your music?</h2>
+        <p>Download Rozix Music Cut from Google Play.</p>
+        <a class="button" href="https://play.google.com/store/apps/details?id=com.sherif.rozixmusiccut" target="_blank" rel="noopener">
+          Get Rozix Music Cut
+        </a>
+      </section>
+    </main>
+
+    <footer>© Rozix Systems · Rozix Music Cut</footer>
+  </div>
+</body>
+</html>
